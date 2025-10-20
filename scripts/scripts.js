@@ -32,7 +32,7 @@ submitBtn.onclick = () => {
 
   if (passcode === correctPasscode) {
     modal.style.display = "none";
-    window.location.href = "supply_orders_landing_page.html";
+    window.location.href = "../pages/supply_orders_landing_page.html";
   } else {
     errorMsg.style.display = "block";
     input.value = "";
